@@ -18,16 +18,12 @@ def fence(strr):
         else:
             s_fence += strr[i].upper()
     return s_fence
+        
+text = st.text_input('Input your text here:')
 
-
-text = st.text_input('Input your text here')
+st.write('Output:')
 
 st.write(fence(text))
 
-
-from PIL import Image
-image = Image.open('image.png') 
-
-
-if st.button('(ˆ(oo)ˆ)'):
-     st.image(image, caption='Зачем это все, если нет свиньи')
+if st.button('Change register'):
+    st.markdown("![(ˆ(oo)ˆ)](https://i.gifer.com/embedded/download/4KBJ.gif)")
