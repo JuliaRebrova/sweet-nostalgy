@@ -29,5 +29,5 @@ from PIL import Image
 image = Image.open('image.png') 
 
 
-if st.button('pig'):
+if st.button('(ˆ(oo)ˆ)'):
      st.image(image, caption='Зачем это все, если нет свиньи')
