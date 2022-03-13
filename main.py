@@ -8,6 +8,7 @@ This app change the register of your text to 'fEnCE' register
 
 """)
 
+
 def fence(strr):
     s_fence = ''
     for i in range(len(strr)):
@@ -23,3 +24,10 @@ text = st.text_input('Input your text here')
 
 st.write(fence(text))
 
+
+from PIL import Image
+image = Image.open('image.png') 
+
+
+if st.button('pig'):
+     st.image(image, caption='Зачем это все, если нет свиньи')
